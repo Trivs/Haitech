@@ -1,0 +1,561 @@
+html{
+    background-image: url(img/bg/fon.png);
+    background-size: 2040px 2450px, auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+h1{
+    font-family: "RalewayBold";
+    font-size: 40px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: "RalewayBold";
+}
+h4{
+    font-size: 24px;
+    font-family: "RalewayBold";
+}
+
+.container{
+    margin: 0px auto;
+    max-width: 1240px;
+    min-width: 960px;   
+}
+
+/**********************Область HEADER*****************************/
+
+.header{
+    width: 1245px;
+    height: 80px;
+    border-bottom: 3px solid #e33321;
+}
+
+.navigation-menu{
+    width: 1245px;
+    height: 40px;
+    background-color: #f6f6f6;
+    font-family: "RalewayRegular";
+    color: #000;
+}
+
+.navigation-menu > a{
+    color: #000;
+}
+
+.logo{
+    width: 300px;
+    float: left;
+}
+
+.links{
+    margin-top: 15px;
+    width: 400px;
+    float: left;
+}
+
+.links > ul li{
+    display: inline;
+    float: left;
+    padding-left: 30px;
+}
+.links > ul li a{
+    font-size: 12px;
+    font-family: "RalewayExtraBold";
+    color: #000;
+}
+
+.links > ul li a:hover{
+    color: #e33321;
+}
+
+.entry{
+    margin-top: 25px;
+    width: 100px;
+    float: left;
+}
+
+.entry > a{
+    margin-left: 12px;
+    font-size: 11px;
+    font-family: "RalewayExtraBold";
+    color: #000;
+}
+
+.entry > a:hover{
+    color: #e33321;
+}
+
+.search{
+    margin-top: 5px;
+    width: 180px;
+    padding-left: 25px;
+    float: left;
+    
+}
+
+.search > form img{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.search > form input{
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding-left: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-family: "RobotoRegular";
+}
+
+.tel-tel{
+    float: left;
+    margin-left: 25px;
+    font-family: "RobotoRegular";
+    color: #000;
+}
+.tel-tel >ul li a{
+    color: #000;
+}
+
+.top-content{
+    width: 1245px;
+    height: 125spx;
+    padding-left: 40px;
+}
+
+/*******************************Левое меню*******************************/
+
+.left-navbar{
+    width: 240px;
+    height: 1400px;
+    background-color: white;
+    float: left;
+}
+
+
+.left-navbar ul li a{
+    font-family: "RalewayExtraBold";
+    color: #000;
+}
+
+.left-navbar ul li{
+    font-family: "RalewayExtraBold";
+    color: #000;
+    border-top: 2px solid #f6f6f6;
+    
+}
+
+.menu{
+    margin-top: -13px;
+    width: 230px;
+    
+}
+
+.menu ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.menu ul li:hover{
+    background-color: #e33321;
+}
+
+.menu ul li a:hover{
+    background-color: #e33321;
+    color: #fff;
+}
+
+.content{
+    width: 1260px;
+    height: 2100px;
+    background-color: white;
+}
+
+/*********************************Основной контент*****************************/
+
+.block-1{
+    width: 940px;
+    height: 240px;
+    background-color: white;
+    border: 3px solid #f6f6f6;
+    float: left;
+}
+
+.block-1 p{
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 700px;
+    font-size: 16px;
+    font-family: "RalewayRegular";
+    
+}
+
+.block-1 > h2{
+    padding-left: 60px;
+    width: 700px;
+}
+
+.block-2{
+    width: 940px;
+    height: 780px;
+    background-color: #f6f6f6;
+    border: 3px solid #f6f6f6;
+    float: left;
+}
+
+.digits{
+    margin-left: -90px;
+    margin-top: -70px;
+}
+
+.digits > img{
+    margin-left: 170px;
+    margin-top: 140px;
+}
+
+.digits-1{
+   
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 140px;
+    width: 180px;
+    font-size: 16px;
+    font-family: "RalewayRegular";
+}
+
+.digits-2{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 450px;
+    width: 175px;
+    font-family: "RalewayRegular";
+}
+
+.digits-3{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 750px;
+    width: 175px;
+    font-family: "RalewayRegular";
+}
+
+.red-line{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -80px;
+}
+
+.digits-4{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 150px;
+    width: 175px;
+    font-family: "RalewayRegular";
+}
+
+.digits-5{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 450px;
+    width: 175px;
+    font-family: "RalewayRegular";
+}
+
+.block-3{
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 800px;
+    height: 190px;
+    background-color: #fff;
+    text-align: center;
+}
+.block-3-text{
+    margin-left: 150px;
+    padding-top: 40px;
+    width: 510px;
+    height: 150px;
+    font-size: 14px;
+    text-align: left;
+    font-family: "RalewayRegular";
+}
+
+.block-4{
+    width: 940px;
+    height: 900px;
+    background-color: #fff;
+    border: 3px solid #f6f6f6;
+    float:left;
+}
+
+.block-4 > p{
+    width: 750px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-family: "RalewayRegular";
+    
+}
+.block-4 > h2{
+    padding-left: 100px;
+}
+
+.contacts{
+    margin-left: 100px;
+    width:350px;
+    height: 260px; 
+    float: left;
+    font-family: "RalewayRegular";
+}
+
+.contacts > p a{
+    color: #e74e3f;
+}
+
+.form{
+    margin-left: 40px;
+    width:350px;
+    height: 260px;
+    float: left;
+    font-family: "RalewayRegular";
+}
+
+.form > h2{
+    padding-left: 25px;
+}
+
+.form > form input {
+    padding-left: 45px;
+    margin-left: 15px;
+    width: 360px;
+    height: 60px;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.form > form button {
+    margin-left: 15px;
+    width: 190px;
+    height: 60px;
+    background-color: #e33321;
+    border: none;
+    color: #fff;
+}
+
+/*****************************Область FOOTER*****************************/
+
+.footer{
+    width: 1260px;
+    height: 430px;
+    background-color: #464646;
+}
+
+.o-nas{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    line-height: 2em;
+    font-family: "RalewayRegular";
+}
+
+.o-nas > img{
+    position: absolute;
+     margin-top: 25px;
+}
+
+.o-nas > ul li a{
+    color: #fff;
+}
+
+.produkcia{
+    margin-top: 50px;
+    margin-left: 120px;
+    float: left;
+    line-height: 2em;
+    font-family: "RalewayRegular";
+}
+
+.produkcia > img{
+    position: absolute;
+     margin-top: 25px;
+}
+
+.produkcia >ul li a{
+    color: #fff;
+}
+
+.uslugi{
+    margin-top: 50px;
+    margin-left: 120px;
+    float: left;
+    line-height: 2em;
+    font-family: "RalewayRegular";
+}
+
+.uslugi > img{
+    position: absolute;
+     margin-top: 25px;
+}
+
+.uslugi > ul li a{
+   color: #fff;
+}
+
+.kontakti{
+    margin-top: 50px;
+    margin-left: 120px;
+    float:left;
+    line-height: 2em;
+    font-family: "RalewayRegular";
+}
+
+.kontakti > img{
+    position: absolute;
+    margin-top: 25px;
+}
+
+.kontakti > ul li{
+    color: #fff;
+    font-family: "RobotoRegular";
+    
+}
+
+.kontakti > ul li a{
+    color: #fff;
+    font-family: "RalewayRegular";
+}
+
+.evrika{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 30px;
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #555555;
+    font-size: 11px;
+    padding-top: 25px;
+}
+
+.evrika > p{
+    display: inline;
+    color: #fff;
+    font-family: "RalewayRegular";
+}
+
+.copirayt{
+    float: left;
+    color: #fff;
+    margin-top: -15px;
+    font-family: "RalewayRegular";
+}
+
+.evrika-design{
+    margin-top: -15px;
+    margin-left: 420px;
+    float: left;
+    display: inline-block;
+}
+
+.evrika-design > p{
+    display: inline;
+    padding-left: 40px;
+    color: #fff;
+    font-family: "RalewayRegular";
+}
+
+
+#modalwindow{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    width: 100%;
+    height: 2700px;
+    display: none;
+    pointer-events: none;
+}
+
+#modalwindow:target{
+    pointer-events: auto;
+    display: block;
+    
+}
+
+.window{
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10% auto;
+    padding: 10px;
+    opacity: inherit;
+}
+
+.window > form input{
+    margin-left: 20%;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #f6f6f6;
+    font-family: "RalewayRegular";
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.window > h4{
+    text-align: center;
+}
+
+.window > form button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+     font-family: "RalewayExtraBold";
+    font-size: 18px;
+    margin-left: 100px;
+    
+    
+}
+
+
+.close{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.close:hover{
+    background: #000;
+    color:#fff;
+}
